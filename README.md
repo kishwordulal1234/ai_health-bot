@@ -38,8 +38,9 @@ A sophisticated web application that leverages AI to analyze medical symptoms an
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/medical-symptom-analyzer.git
-cd medical-symptom-analyzer
+git clone https://github.com/kishwordulal1234/ai_health-bot
+cd ai_health-bot
+python3 maya.py
 ```
 
 2. Install required packages:
