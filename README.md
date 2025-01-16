@@ -9,7 +9,7 @@
 
 A sophisticated web application that leverages AI to analyze medical symptoms and provide preliminary health insights. This tool combines modern web technologies with Google's Gemini AI to deliver an intuitive, user-friendly medical symptom analysis experience.
 
-![Medical Symptom Analyzer Screenshot](screenshot.png)
+![Medical Symptom Analyzer Screenshot](Screenshot 2025-01-16 081642.png)
 
 ## ✨ Features
 
