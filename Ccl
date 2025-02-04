@@ -1,0 +1,130 @@
+Create an AI-powered medical analyser and health assistant using React.js, JSON (as a database), and Gemini API for symptom analysis, diagnosis, and treatment recommendations. The system must be highly accurate, secure, visually appealing, and user-friendly, with proper warnings about medical limitations.
+
+
+---
+
+🔹 Key Functionalities & Features:
+
+1️⃣ User Authentication & Profile Management
+
+Allow two login modes:
+
+Guest Mode: No data is saved.
+
+User Mode: Saves encrypted medical history in JSON.
+
+
+User profile should store:
+
+Name, age, gender, height, weight.
+
+Medical history, allergies, ongoing medications, and emergency contacts.
+
+
+Full data control: Users can view, edit, export, or delete their records.
+
+
+2️⃣ AI-Powered Symptom Analysis
+
+Users select symptoms from a list or enter manually.
+
+Severity levels (color-coded):
+
+None (Gray), Low (Green), Medium (Yellow), High (Orange), Critical (Red).
+
+
+Gemini AI analyzes symptoms, suggests possible conditions, and provides:
+
+Easy-to-understand explanations.
+
+Confidence Score for accuracy.
+
+Warnings & disclaimers about AI limitations.
+
+
+
+3️⃣ Treatment & Medication Suggestions
+
+AI suggests both allopathic and natural remedies.
+
+Includes: dosage, precautions, and potential side effects.
+
+Warning pop-ups for high-risk medications.
+
+Doctor Consultation Mode: If symptoms are critical, AI recommends seeing a real doctor.
+
+
+4️⃣ Printable & Shareable Health Reports
+
+Generate detailed health reports including:
+
+Symptoms, severity, possible conditions.
+
+Suggested medications & treatments.
+
+Space for doctor consultation notes.
+
+
+Users can download, print, or share reports via email.
+
+Reports include a medical disclaimer.
+
+
+5️⃣ Health Record & Symptom Tracking
+
+Users can log symptoms daily and track health trends.
+
+Old data is stored securely in encrypted JSON.
+
+Data export & deletion options for privacy.
+
+
+6️⃣ Dark Mode, Accessibility & UI Enhancements
+
+Light & Dark Mode for better readability.
+
+Voice-Assisted Navigation for accessibility.
+
+Modern UI using Tailwind CSS / Material UI.
+
+
+
+---
+
+🛠️ Technology Stack & Implementation Details
+
+Frontend: React.js
+
+UI Framework: Tailwind CSS / Material UI
+
+State Management: Redux (if needed)
+
+AI Integration: Gemini API
+
+Database: JSON (local, encrypted)
+
+
+
+---
+
+💡 Additional Features for Accuracy & User Experience
+
+✅ AI Cross-Checks Diagnosis with WHO, WebMD, Mayo Clinic.
+✅ Secure JSON Encryption to protect user data.
+✅ Real-Time Symptom Tracking for health monitoring.
+✅ Smooth UI Animations, Dark Mode, Voice Support.
+✅ Doctor Consultation Option for critical cases.
+
+
+---
+
+🚀 Final Requirements for Development
+
+Build a highly secure, user-friendly, and medically accurate AI health assistant with:
+✔ AI-driven symptom analysis & treatment suggestions
+✔ Printable reports with doctor consultation options
+✔ Encrypted JSON-based health record management
+✔ Light & Dark Mode with accessibility features
+✔ Medical warnings & disclaimers for safe usage
+
+Ensure that users understand this tool is NOT a replacement for real doctors and always provides disclaimers about AI accuracy.
